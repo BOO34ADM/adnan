@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     allowedHosts: [
-      "3d258b57-6e36-46f3-971a-d12af801213f-00-3tarbk7350wdg.worf.replit.dev"
+      "a11e4d44-2e7b-4462-998b-a1aa1e209a1d-00-1370554fkm01o.picard.replit.dev"
     ]
   },
   build: {
