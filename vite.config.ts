@@ -8,6 +8,9 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: [
+      "3d258b57-6e36-46f3-971a-d12af801213f-00-3tarbk7350wdg.worf.replit.dev"
+    ]
   },
   build: {
     outDir: "dist/spa",
@@ -24,11 +27,9 @@ export default defineConfig(({ mode }) => ({
 function expressPlugin(): Plugin {
   return {
     name: "express-plugin",
-    apply: "serve", // Only apply during development (serve mode)
+    apply: "serve",
     configureServer(server) {
       const app = createServer();
-
-      // Add Express app as middleware to Vite dev server
       server.middlewares.use(app);
     },
   };
