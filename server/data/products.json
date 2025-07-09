@@ -1,0 +1,54 @@
+[
+  {
+    "id": "tshirt-classic",
+    "name": "SA9R Classic T-Shirt",
+    "category": "tshirt",
+    "price": 29.99,
+    "sizes": ["S", "M", "L"],
+    "colors": ["black", "white"],
+    "images": {
+      "front": "/api/images/tshirt-front.jpg",
+      "back": "/api/images/tshirt-back.jpg"
+    },
+    "description": "Premium cotton t-shirt with SA9R logo. Comfortable fit and durable design."
+  },
+  {
+    "id": "tshirt-vintage",
+    "name": "SA9R Vintage T-Shirt",
+    "category": "tshirt",
+    "price": 34.99,
+    "sizes": ["S", "M", "L"],
+    "colors": ["black", "white"],
+    "images": {
+      "front": "/api/images/tshirt-vintage-front.jpg",
+      "back": "/api/images/tshirt-vintage-back.jpg"
+    },
+    "description": "Vintage-style t-shirt with distressed SA9R logo for a classic streetwear look."
+  },
+  {
+    "id": "hoodie-essential",
+    "name": "SA9R Essential Hoodie",
+    "category": "hoodie",
+    "price": 59.99,
+    "sizes": ["S", "M", "L"],
+    "colors": ["black", "white"],
+    "images": {
+      "front": "/api/images/hoodie-front.jpg",
+      "back": "/api/images/hoodie-back.jpg"
+    },
+    "description": "Cozy pullover hoodie with kangaroo pocket and embroidered SA9R logo."
+  },
+  {
+    "id": "hoodie-premium",
+    "name": "SA9R Premium Hoodie",
+    "category": "hoodie",
+    "price": 79.99,
+    "sizes": ["S", "M", "L"],
+    "colors": ["black", "white"],
+    "images": {
+      "front": "/api/images/hoodie-premium-front.jpg",
+      "back": "/api/images/hoodie-premium-back.jpg"
+    },
+    "description": "Premium heavyweight hoodie with fleece lining and oversized SA9R branding."
+  }
+]
